@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="free-icon-eye-care-2824802.png" type="image/x-icon">
+    <title>Tabs vanil js</title>
+</head>
+<body>
+    <div class="wrapper">
+        <h1>WATCH IT</h1>
+
+        <div class="tabs">
+            <div role="tablist" aria-label="Streaming Content">
+                <button role="tab" aria-selected="true" id="series">
+                    Сериалы
+                </button>
+                <button role="tab" aria-selected="false" id="movies">
+                    Фильмы
+                </button>
+                <button role="tab" aria-selected="false" id="sports">
+                    Спорт
+                </button>
+            </div>
+            <div role="tabpanel" aria-labelledby="series" >
+                    <p>Лучшие сериалы!</p>
+            </div>
+            <div role="tabpanel" aria-labelledby="movies" hidden>
+                <p>Все комедии, драмы, боевики тут!</p>
+        </div>
+        <div role="tabpanel" aria-labelledby="sports" hidden>
+            <p>Лучшие спортивные трансляции</p>
+    </div>
+        </div>
+    </div>
+  <script src="script.js"></script>  
+</body>
+</html>
